@@ -7,6 +7,7 @@ This repository holds the solution for the
 ### Content
 
 The file `cachematrix.R` contains two functions for computing the inverse of a matrix and storing it in the cache:
+
 1.	The `makeCacheMatrix` function returns a list of API functions that can be used to retrieve and set the underlying matrix and the cached result.
 2.	The `cacheSolve` function accepts a CacheMatrix object and returns its inverse. It tries to fetch the cached result first,
 and if it's null the function will calculate the inverse and store it in the cache for future calls.
