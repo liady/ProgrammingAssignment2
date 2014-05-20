@@ -11,6 +11,8 @@ The file `cachematrix.R` contains two functions for computing the inverse of a m
 2.	The `cacheSolve` function accepts a CacheMatrix object and returns its inverse. It tries to fetch the cached result first,
 and if it's null the function will calculate the inverse and store it in the cache for future calls.
 
+<!-- -->
+
 ### Usage
 The two functions should be used together. For example:
 ```
